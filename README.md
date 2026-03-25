@@ -1,53 +1,37 @@
-# SayeOS Coming Soon Website
+# SayeOS Enterprise
 
-A clean, professional placeholder website for SayeOS - showcasing AI governance, reliability, and auditability.
+**Constitutionally Governed Intelligence**
 
-## Files
+A new operating system for AI agents built on the principle of separation of powers.
 
-- `index.html` - Main HTML page
-- `styles.css` - Styling and animations
-- `logo.svg` - Clean vector logo (scalable)
+### Core Architecture
+- **Intent** — Human-defined goals and boundaries  
+- **Thought** — Reasoning within constitutional constraints  
+- **Action** — Execution with auditability and human approval gates  
 
-## Features
+Explicit separation of concerns with governance embedded by design — not added later.
 
-- **Responsive Design** - Works on desktop, tablet, and mobile
-- **Modern Aesthetic** - Dark theme with gold accents matching the logo
-- **Smooth Animations** - Fade-in effects and hover interactions
-- **Key Messaging** - Highlights governance, reliability, and auditability
+### What We Deliver
+- Production-ready, auditable agent systems  
+- Constitutional safeguards aligned with enterprise standards  
+- Predictable, controllable, and deployable intelligence at scale  
+- Full transparency from intent to outcome  
 
-## How to View
+### Repository Contents
+- Enterprise landing page (`index.html`)
+- White papers and supporting materials
+- Branding assets (logo and styling)
 
-Simply open `index.html` in any web browser:
+### Live Site
+https://sayeos.com (coming soon)
 
-1. Navigate to this folder in File Explorer
-2. Double-click `index.html`
-3. Or right-click and choose "Open with" → your preferred browser
-
-## Customization
-
-### Colors
-The main brand colors are defined in `styles.css`:
-- Gold accent: `#c9b896`
-- Dark background: `#1a1d29` to `#2d3142` (gradient)
-- Light text: `#e0e0e0`
-
-### Content
-Edit `index.html` to change:
-- Tagline
-- Feature descriptions
-- Coming soon message
-
-### Logo
-The logo is an SVG file that can be edited with any vector graphics editor or text editor.
-
-## Deployment
-
-To deploy this website:
-1. Upload all files to your web hosting service
-2. Ensure `index.html` is in the root directory
-3. The site is static HTML/CSS - no server-side processing needed
+### Related Projects
+- Open-source / Non-profit distribution: [sayeos-os](https://github.com/sayeos/sayeos-os) (or your org/repo name)
 
 ---
 
-**SayeOS** - Unlocking AI Potential through Governance
+**SayeOS** — Where human judgment remains in control and AI execution becomes limitless.
+
+For enterprise licensing, pilots, or partnership inquiries:  
+hello@sayeos.com
 
