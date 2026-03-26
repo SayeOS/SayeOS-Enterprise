@@ -23,10 +23,10 @@ Explicit separation of concerns with governance embedded by design — not added
 - Branding assets (logo and styling)
 
 ### Live Site
-https://sayeos.com (coming soon)
+https://sayeos.com
 
 ### Related Projects
-- Open-source / Non-profit distribution: [sayeos-os](https://github.com/sayeos/sayeos-os) (or your org/repo name)
+- Open-source / Non-profit distribution: [sayeos-os](https://github.com/sayeos/sayeos-os)
 
 ---
 
