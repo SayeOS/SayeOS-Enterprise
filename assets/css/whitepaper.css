@@ -1,0 +1,172 @@
+/* White Paper Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #ffffff;
+    color: #2a2a2a;
+    line-height: 1.8;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #c9b896;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.company-name {
+    font-size: 1.5rem;
+    color: #c9b896;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* Executive Summary */
+.executive-summary {
+    background: #f8f8f8;
+    padding: 30px;
+    margin: 40px 0;
+    border-left: 4px solid #c9b896;
+}
+
+.executive-summary h2 {
+    font-size: 1.5rem;
+    color: #c9b896;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+/* Sections */
+.section {
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #444;
+    margin: 25px 0 15px 0;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Lists */
+ul {
+    margin: 20px 0 20px 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Emphasis */
+strong {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+em {
+    color: #c9b896;
+    font-style: italic;
+}
+
+/* Horizontal Rules */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+/* Footer */
+.footer {
+    margin-top: 80px;
+    padding-top: 30px;
+    border-top: 2px solid #e0e0e0;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #c9b896;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.back-link:hover {
+    background: #b8a785;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        padding: 0;
+        max-width: 100%;
+    }
+    
+    .back-link {
+        display: none;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .executive-summary {
+        padding: 20px;
+    }
+}
+
