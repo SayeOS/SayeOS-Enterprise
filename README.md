@@ -33,5 +33,5 @@ https://sayeos.com
 **SayeOS** — Where human judgment remains in control and AI execution becomes limitless.
 
 For enterprise licensing, pilots, or partnership inquiries:  
-hello@sayeos.com
+hello@sayeos.com 
 
