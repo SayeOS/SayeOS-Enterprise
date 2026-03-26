@@ -1,103 +1,99 @@
-/* White Paper Styling */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* White Paper Styling - Clean & Professional */
 body {
     font-family: 'Georgia', 'Times New Roman', serif;
     background: #ffffff;
     color: #2a2a2a;
-    line-height: 1.8;
-    padding: 40px 20px;
-    max-width: 900px;
+    line-height: 1.85;
+    padding: 60px 40px;
+    max-width: 920px;
     margin: 0 auto;
 }
 
 /* Header */
 .header {
     text-align: center;
-    margin-bottom: 60px;
-    padding-bottom: 30px;
-    border-bottom: 3px solid #c9b896;
+    margin-bottom: 70px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #B38B5E;   /* Your gold color */
 }
 
 .logo {
-    width: 120px;
-    margin-bottom: 20px;
+    width: 110px;
+    margin-bottom: 24px;
 }
 
 .company-name {
-    font-size: 1.5rem;
-    color: #c9b896;
+    font-size: 1.4rem;
+    color: #B38B5E;
+    letter-spacing: 0.15em;
+    margin-bottom: 12px;
     font-weight: 400;
-    letter-spacing: 0.1em;
-    margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 400;
     color: #1a1a1a;
-    margin-bottom: 20px;
-    line-height: 1.3;
+    margin-bottom: 18px;
+    line-height: 1.25;
 }
 
 .subtitle {
-    font-size: 1.1rem;
-    color: #666;
+    font-size: 1.15rem;
+    color: #555;
     font-style: italic;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 /* Executive Summary */
 .executive-summary {
-    background: #f8f8f8;
-    padding: 30px;
-    margin: 40px 0;
-    border-left: 4px solid #c9b896;
+    background: #f9f7f2;
+    padding: 38px;
+    margin: 50px 0;
+    border-left: 5px solid #B38B5E;
+    border-radius: 4px;
 }
 
 .executive-summary h2 {
-    font-size: 1.5rem;
-    color: #c9b896;
-    margin-bottom: 20px;
+    font-size: 1.55rem;
+    color: #B38B5E;
+    margin-bottom: 22px;
     font-weight: 400;
 }
 
-/* Sections */
+/* Main Content */
 .section {
-    margin: 50px 0;
+    margin: 55px 0;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.85rem;
     color: #1a1a1a;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 8px;
 }
 
 h3 {
-    font-size: 1.3rem;
-    color: #444;
-    margin: 25px 0 15px 0;
+    font-size: 1.35rem;
+    color: #333;
+    margin: 32px 0 16px 0;
     font-weight: 500;
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     text-align: justify;
 }
 
 /* Lists */
 ul {
-    margin: 20px 0 20px 40px;
+    margin: 22px 0 22px 35px;
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 /* Emphasis */
@@ -107,7 +103,7 @@ strong {
 }
 
 em {
-    color: #c9b896;
+    color: #B38B5E;
     font-style: italic;
 }
 
@@ -115,32 +111,53 @@ em {
 hr {
     border: none;
     border-top: 1px solid #ddd;
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
-/* Footer */
-.footer {
-    margin-top: 80px;
-    padding-top: 30px;
-    border-top: 2px solid #e0e0e0;
-    text-align: center;
-    color: #888;
-    font-size: 0.9rem;
-}
-
+/* Back Link */
 .back-link {
     display: inline-block;
-    margin-top: 20px;
-    padding: 12px 30px;
-    background: #c9b896;
+    margin: 40px 0 20px 0;
+    padding: 12px 32px;
+    background: #B38B5E;
     color: #fff;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 6px;
+    font-weight: 500;
     transition: background 0.3s ease;
 }
 
 .back-link:hover {
-    background: #b8a785;
+    background: #9f7a4f;
+}
+
+/* Footer */
+.footer {
+    margin-top: 90px;
+    padding-top: 40px;
+    border-top: 2px solid #e8e8e8;
+    text-align: center;
+    color: #777;
+    font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 40px 20px;
+    }
+    
+    h1 {
+        font-size: 2.1rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    .executive-summary {
+        padding: 28px;
+    }
 }
 
 /* Print Styles */
@@ -149,24 +166,8 @@ hr {
         padding: 0;
         max-width: 100%;
     }
-    
     .back-link {
         display: none;
-    }
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-    
-    h2 {
-        font-size: 1.5rem;
-    }
-    
-    .executive-summary {
-        padding: 20px;
     }
 }
 
